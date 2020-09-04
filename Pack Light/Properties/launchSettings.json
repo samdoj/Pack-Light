@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Pack Light": {
+      "commandName": "Project",
+      "commandLineArgs": "-t classesOnly -nums 4 12 32"
+    }
+  }
+}
