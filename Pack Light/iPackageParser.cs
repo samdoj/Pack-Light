@@ -7,6 +7,7 @@ namespace Pack_Light
 {
     interface iPackageParser
     {
+        public static String directory;
         public abstract ArrayList GetDependencies(String filename);
         public abstract ArrayList GetFunctions();
         public abstract ArrayList GetConstants();

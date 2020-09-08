@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 
 namespace Pack_Light
 {
-    class OptionsParser
+    public class OptionsParser
     {
         public static Dictionary<String,String[]> Parse(string[] args)
         {
@@ -27,10 +27,25 @@ namespace Pack_Light
                     }
                     paramsDictionary.Add(arg, (string[])paramsList.ToArray(type: typeof(String)));
                     i--;
-                    Console.WriteLine($"switch: {arg} \t Parameters: {String.Join(' ',paramsDictionary.GetValueOrDefault(arg))}");   
-                }
+                 }
             }
-            return null;
+           if (paramsDictionary.Count==0)
+            {
+               if (args.Length == 1) 
+                {
+                    paramsDictionary.TryAdd("FileNames",args);
+                }
+               else
+                {
+                    String argsJoined = String.Join(" ", args);
+                    if (!Regex.IsMatch(argsJoined,"/.cfg"))
+                        {
+                        paramsDictionary.TryAdd("FileNames", args);
+
+                    }
+                }                    
+            }
+            return paramsDictionary;
 
              static bool isSwitch(string arg)
             {
