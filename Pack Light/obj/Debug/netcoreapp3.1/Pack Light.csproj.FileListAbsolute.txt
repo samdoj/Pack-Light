@@ -1,0 +1,26 @@
+C:\Users\Jodde\source\repos\Pack Light\Pack Light\bin\Debug\netcoreapp3.1\Pack Light.exe
+C:\Users\Jodde\source\repos\Pack Light\Pack Light\bin\Debug\netcoreapp3.1\Pack Light.deps.json
+C:\Users\Jodde\source\repos\Pack Light\Pack Light\bin\Debug\netcoreapp3.1\Pack Light.runtimeconfig.json
+C:\Users\Jodde\source\repos\Pack Light\Pack Light\bin\Debug\netcoreapp3.1\Pack Light.runtimeconfig.dev.json
+C:\Users\Jodde\source\repos\Pack Light\Pack Light\bin\Debug\netcoreapp3.1\Pack Light.dll
+C:\Users\Jodde\source\repos\Pack Light\Pack Light\bin\Debug\netcoreapp3.1\Pack Light.pdb
+C:\Users\Jodde\source\repos\Pack Light\Pack Light\obj\Debug\netcoreapp3.1\Pack Light.csprojAssemblyReference.cache
+C:\Users\Jodde\source\repos\Pack Light\Pack Light\obj\Debug\netcoreapp3.1\Pack Light.AssemblyInfoInputs.cache
+C:\Users\Jodde\source\repos\Pack Light\Pack Light\obj\Debug\netcoreapp3.1\Pack Light.AssemblyInfo.cs
+C:\Users\Jodde\source\repos\Pack Light\Pack Light\obj\Debug\netcoreapp3.1\Pack Light.dll
+C:\Users\Jodde\source\repos\Pack Light\Pack Light\obj\Debug\netcoreapp3.1\Pack Light.pdb
+C:\Users\Jodde\source\repos\Pack Light\Pack Light\obj\Debug\netcoreapp3.1\Pack Light.genruntimeconfig.cache
+C:\Users\Jodde\source\repos\Pack Light\Pack Light\obj\Debug\netcoreapp3.1\Pack Light.csproj.CoreCompileInputs.cache
+C:\Users\Jodde\source\repos\Pack Light Original\Pack Light\bin\Debug\netcoreapp3.1\Pack Light.exe
+C:\Users\Jodde\source\repos\Pack Light Original\Pack Light\bin\Debug\netcoreapp3.1\Pack Light.deps.json
+C:\Users\Jodde\source\repos\Pack Light Original\Pack Light\bin\Debug\netcoreapp3.1\Pack Light.runtimeconfig.json
+C:\Users\Jodde\source\repos\Pack Light Original\Pack Light\bin\Debug\netcoreapp3.1\Pack Light.runtimeconfig.dev.json
+C:\Users\Jodde\source\repos\Pack Light Original\Pack Light\bin\Debug\netcoreapp3.1\Pack Light.dll
+C:\Users\Jodde\source\repos\Pack Light Original\Pack Light\bin\Debug\netcoreapp3.1\Pack Light.pdb
+C:\Users\Jodde\source\repos\Pack Light Original\Pack Light\obj\Debug\netcoreapp3.1\Pack Light.csprojAssemblyReference.cache
+C:\Users\Jodde\source\repos\Pack Light Original\Pack Light\obj\Debug\netcoreapp3.1\Pack Light.AssemblyInfoInputs.cache
+C:\Users\Jodde\source\repos\Pack Light Original\Pack Light\obj\Debug\netcoreapp3.1\Pack Light.AssemblyInfo.cs
+C:\Users\Jodde\source\repos\Pack Light Original\Pack Light\obj\Debug\netcoreapp3.1\Pack Light.csproj.CoreCompileInputs.cache
+C:\Users\Jodde\source\repos\Pack Light Original\Pack Light\obj\Debug\netcoreapp3.1\Pack Light.dll
+C:\Users\Jodde\source\repos\Pack Light Original\Pack Light\obj\Debug\netcoreapp3.1\Pack Light.pdb
+C:\Users\Jodde\source\repos\Pack Light Original\Pack Light\obj\Debug\netcoreapp3.1\Pack Light.genruntimeconfig.cache
