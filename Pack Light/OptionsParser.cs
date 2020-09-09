@@ -12,12 +12,15 @@ namespace Pack_Light
         public static Dictionary<String,String[]> Parse(string[] args)
         {
             int i = 0;
+            int firstSwitchPos = -1;
             Dictionary<String, String[]> paramsDictionary = new Dictionary<String, String[]>(); 
            for (i = 0; i < args.Length; i++)
             {
                 String arg = args[i];
                 if (isSwitch(arg))
                 {
+                    firstSwitchPos = firstSwitchPos == -1 ? i : firstSwitchPos;
+
                     i++;
                     ArrayList paramsList = new ArrayList();
                      while (i < args.Length && !isSwitch(args[i]))
@@ -29,18 +32,21 @@ namespace Pack_Light
                     i--;
                  }
             }
-           if (paramsDictionary.Count==0)
+           if (firstSwitchPos != 0)
             {
-               if (args.Length == 1) 
                 {
-                    paramsDictionary.TryAdd("FileNames",args);
-                }
-               else
-                {
-                    String argsJoined = String.Join(" ", args);
-                    if (!Regex.IsMatch(argsJoined,"/.cfg"))
+                    String[] FileNames= { };
+
+                    if (firstSwitchPos > -1)
+                    {
+                        FileNames = new ArraySegment<String>(args, 0, firstSwitchPos).ToArray();
+                    }
+                    else FileNames = args;
+
+                     
+                    if (!Regex.IsMatch(String.Join(String.Empty,FileNames),"/.cfg"))
                         {
-                        paramsDictionary.TryAdd("FileNames", args);
+                        paramsDictionary.TryAdd("FileNames", FileNames);
 
                     }
                 }                    

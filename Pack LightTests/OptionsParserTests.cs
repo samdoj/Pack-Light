@@ -39,6 +39,18 @@ namespace Pack_Light.Tests
             CollectionAssert.AreEqual(parsed.GetValueOrDefault("-switch1"), new string[] { "A", "B", "C" });
             CollectionAssert.AreEqual(parsed.GetValueOrDefault("-switch2"), new string[] { "1", "2", "3" });
         }
+        [TestMethod()]
+        public void TestParseFileNamesBeforeSwitch()
+        {
+            String[] args = { "cat.php", "-s" };
+            Assert.AreEqual(Parse(args).GetValueOrDefault("FileNames")[0], "cat.php");
+        }
+        [TestMethod()]
+        public void TestParseConfigFileNameAsOnlyParam()
+        {
+            String[] args = { "config.cfg" };
+            Assert.AreEqual(Parse(args).GetValueOrDefault("ConfigFile"), args[0]);
+        }
     }
 
 }
