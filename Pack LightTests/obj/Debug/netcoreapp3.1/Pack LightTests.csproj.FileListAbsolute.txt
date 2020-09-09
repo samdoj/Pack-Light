@@ -90,8 +90,10 @@ C:\Users\Jodde\source\repos\Pack Light Original\Pack LightTests\bin\Debug\netcor
 C:\Users\Jodde\source\repos\Pack Light Original\Pack LightTests\obj\Debug\netcoreapp3.1\Pack LightTests.csprojAssemblyReference.cache
 C:\Users\Jodde\source\repos\Pack Light Original\Pack LightTests\obj\Debug\netcoreapp3.1\Pack LightTests.AssemblyInfoInputs.cache
 C:\Users\Jodde\source\repos\Pack Light Original\Pack LightTests\obj\Debug\netcoreapp3.1\Pack LightTests.AssemblyInfo.cs
-C:\Users\Jodde\source\repos\Pack Light Original\Pack LightTests\obj\Debug\netcoreapp3.1\Pack LightTests.csproj.CoreCompileInputs.cache
 C:\Users\Jodde\source\repos\Pack Light Original\Pack LightTests\obj\Debug\netcoreapp3.1\Pack LightTests.csproj.CopyComplete
 C:\Users\Jodde\source\repos\Pack Light Original\Pack LightTests\obj\Debug\netcoreapp3.1\Pack LightTests.dll
 C:\Users\Jodde\source\repos\Pack Light Original\Pack LightTests\obj\Debug\netcoreapp3.1\Pack LightTests.pdb
 C:\Users\Jodde\source\repos\Pack Light Original\Pack LightTests\obj\Debug\netcoreapp3.1\Pack LightTests.genruntimeconfig.cache
+C:\Users\Jodde\source\repos\Pack Light Original\Pack LightTests\obj\Debug\netcoreapp3.1\Pack LightTests.csproj.CoreCompileInputs.cache
+C:\Users\Jodde\source\repos\Pack Light Original\Pack LightTests\bin\Debug\netcoreapp3.1\oldcfg.json
+C:\Users\Jodde\source\repos\Pack Light Original\Pack LightTests\bin\Debug\netcoreapp3.1\plcfg.json

@@ -11,10 +11,10 @@ namespace Pack_Light.Tests
         [TestMethod()]
         public void TestParseFileName()
         {
-            String[] opts = { "C:\test.php" };
+            String[] opts = { @"C:\test.php" };
             var parsed = OptionsParser.Parse(opts);
             String[] fnames = parsed.GetValueOrDefault("FileNames");
-            Assert.AreEqual(opts[0], fnames[0]);
+           CollectionAssert.Contains(fnames,opts[0]);
         }
         [TestMethod()]
         public void TestParseMultipleFiles()
@@ -48,9 +48,25 @@ namespace Pack_Light.Tests
         [TestMethod()]
         public void TestParseConfigFileNameAsOnlyParam()
         {
-            String[] args = { "config.cfg" };
-            Assert.AreEqual(Parse(args).GetValueOrDefault("ConfigFile"), args[0]);
+            String[] args = { "plcfg.json" };
+            Assert.AreEqual(Parse(args).GetValueOrDefault("ConfigFileName")[0], args[0]);
         }
+        [TestMethod()]
+        public void TestParseConfigFileNameOnDriveAsOnlyParam()
+        {
+            String[] args = { @"C:\plcfg\plcfg.json" };
+            Assert.AreEqual(Parse(args).GetValueOrDefault("ConfigFileName")[0], args[0]);
+        }
+        /*
+         //To test, remove plcfg.json from directory or rename to altconfig.json
+ [TestMethod()]
+        public void TestParseAlternativeConfigFileName()
+        {
+            String[] args = { @"altconfig.json" };
+            var pv = Parse(args);
+            Assert.AreEqual(Parse(args).GetValueOrDefault("ConfigFileName")[0], args[0]);
+        }
+        */
     }
 
 }

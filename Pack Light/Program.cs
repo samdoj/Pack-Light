@@ -1,4 +1,5 @@
 ﻿using System;
+using Newtonsoft.Json;
 
 namespace Pack_Light
 {
@@ -6,7 +7,7 @@ namespace Pack_Light
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write(JsonConvert.SerializeObject(OptionsParser.Parse(args)));
             OptionsParser.Parse(args);
         }
     }
